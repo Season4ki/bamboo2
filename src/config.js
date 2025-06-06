@@ -1,14 +1,14 @@
 const config = {
   //网页元数据
   metaData:{
-    title: 'bamboo.1 homepage🎉',
+    title: 'bamboo.1 homepage',
     description: 'ようこそ、私のソウルソサエティへ',
     keywords: 'Bamboo,no.1,个人主页,个人网站',
     icon: '/favicon.ico'   //网页图标，支持外链
   },
 
   avatar: "/img/avatar.jpg", // 头像
-  welcometitle: "Hi, I'm bamboo", // 标题
+  welcometitle: "Hi,I'm bamboo.1", // 标题
 
   // 颜色配置
   color: {
