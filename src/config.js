@@ -61,10 +61,11 @@ const config = {
 
   //打字机
   typeWriterStrings: [
-    "If you’re reading this line, it means I’ve already succeeded in capturing your attention.",
-    "顶峰的少年，给了你所有细节，你却说我不是迪迦，给不了你想要的光。",
+    "If you see this line, I've managed to get your attention.",
+     "セネカ曰く「生は適切に活用すれば十分に長い」"
+    "生命太短，没有时间留给遗憾，若不是终点，请微笑一直向前。",
     "Life,Life is long, If you know how to use it.",
-    "人生は短く、後悔している暇はない。終点でないのなら、どうか微笑んで前へ進み続けてほしい。"
+   
   ],
 
   //音乐播放配置，采用MetingJS Api(https://github.com/metowolf/MetingJS)
