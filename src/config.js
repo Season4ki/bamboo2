@@ -64,7 +64,7 @@ const config = {
     "If you see this line, I've managed to get your attention.",
      "セネカ曰く「生は適切に活用すれば十分に長い」",
     "生命太短，没有时间留给遗憾，若不是终点，请微笑一直向前。",
-    "Life,Life is long, If you know how to use it.",
+    "現実の私は叶わない望みを抱いている、だから夢境に訴えることにした。",
    
   ],
 
