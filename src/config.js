@@ -2,7 +2,7 @@ const config = {
   //网页元数据
   metaData:{
     title: 'bamboo.1 homepage🎉',
-    description: 'ようこそ、私にソウルソサエティへ',
+    description: 'ようこそ、私のソウルソサエティへ',
     keywords: 'Bamboo,no.1,个人主页,个人网站',
     icon: '/favicon.ico'   //网页图标，支持外链
   },
