@@ -29,7 +29,7 @@ const config = {
       "datainfo":{
         "title":"腐草为萤", 
         "preview":"/img/wallpaper/static/腐草为萤/image2-pre.webp",
-        "url":"/img/wallpaper/static/腐草为萤/image.jpeg",     //当然，也可填写网络地址或壁纸api，如随机PC壁纸api："url":"https://t.mwm.moe/pc"
+        "url":"/img/wallpaper/static/腐草为萤/image2.jpeg",     //当然，也可填写网络地址或壁纸api，如随机PC壁纸api："url":"https://t.mwm.moe/pc"
       },
     },
     "mobile":{   //移动端
