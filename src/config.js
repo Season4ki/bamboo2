@@ -2,8 +2,8 @@ const config = {
   //网页元数据
   metaData:{
     title: 'bamboo.1 homepage🎉',
-    description: '欢迎来到Leleo的奇妙世界！',
-    keywords: 'Leleo,leleo,个人主页,个人网站',
+    description: 'ようこそ、私にソウルソサエティへ',
+    keywords: 'Bamboo,no.1,个人主页,个人网站',
     icon: '/favicon.ico'   //网页图标，支持外链
   },
 
@@ -20,7 +20,7 @@ const config = {
   blur: 5, // 毛玻璃模糊效果
 
   // 我的标签
-  tags : ['乐观开朗','温柔体贴','随和亲切','冷静沉着','才思敏捷','风趣幽默','刚正不阿','善解人意'],
+  tags : ['楽観快活','温厚篤実','和顔愛語','冷静沈着','才気煥発','軽妙洒脱','剛毅不屈','明察洞察'],
 
   // 默认背景壁纸
   background: {
