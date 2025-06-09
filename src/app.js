@@ -134,7 +134,7 @@ export default {
           this.isloading = false;
         }, "500");          
       }).catch((err) => {
-        console.error('壁纸加载失败:', err);
+        console.error('背景の読み込みに失敗しました:', err);
         setTimeout(() => {
           this.isloading = false;
         }, "100");  
