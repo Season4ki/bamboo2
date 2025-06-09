@@ -179,7 +179,7 @@
               style="text-align: center;"
               >
               <template v-slot:subtitle>
-                <span class="leleo-card-subtitle">本页基于以下技术及服务搭建</span>
+                <span class="leleo-card-subtitle">本ページは以下の技術とサービスに基づいて構築されています</span>
               </template>
               <div>
                 <v-tooltip  v-for="item in stackicons" v-model="item.model" location="top">
