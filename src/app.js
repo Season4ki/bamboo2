@@ -50,19 +50,19 @@ export default {
       tabs: [
         {
           icon: 'mdi-pencil-plus',
-          text: '样式预览',
+          text: 'スタイルプレビュー',
           value: 'tab-1',
           component: "tab1",
         },
         {
           icon: 'mdi-wallpaper',
-          text: '背景预览',
+          text: '背景プレビュー',
           value: 'tab-2',
           component: "tab2",
         },
         {
           icon: 'mdi-music-circle-outline',
-          text: '音乐播放',
+          text: '音楽再生',
           value: 'tab-3',
           component: "tab3",
         },
@@ -269,12 +269,12 @@ export default {
         const response = await fetch(`https://api.i-meto.com/meting/api?server=${this.configdata.musicPlayer.server}&type=${this.configdata.musicPlayer.type}&id=${this.configdata.musicPlayer.id}`
         );
         if (!response.ok) {
-          throw new Error('网络请求失败');
+          throw new Error('ネットワーク接続に失敗しました');
         }
         this.musicinfo = await response.json();
         this.musicinfoLoading = false;
       } catch (error) {
-        console.error('请求失败:', error);
+        console.error('ネットワークエラー:', error);
       }
       
     },
