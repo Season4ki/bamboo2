@@ -33,7 +33,7 @@ const config = {
       },
     },
     "mobile":{   //移动端
-      "type":"video",
+      "type":"pic",
       "datainfo":{
         "title":"0001", 
         "preview":"/img/wallpaper/static-mobile/0001/image-pre.webp",
