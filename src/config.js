@@ -35,9 +35,9 @@ const config = {
     "mobile":{   //移动端
       "type":"video",
       "datainfo":{
-        "title":"幻觉镇-gaako_illust", 
-        "preview":"/img/wallpaper/dynamic-mobile/幻觉镇-gaako_illust/Hallucination_town-pre.mp4",
-        "url":"/img/wallpaper/dynamic-mobile/幻觉镇-gaako_illust/Hallucination_town.mp4"  //同理，随机移动端壁纸："url":"https://t.mwm.moe/mp"
+        "title":"0001", 
+        "preview":"/img/wallpaper/static-mobile/0001/image-pre.webp",
+        "url":"/img/wallpaper/static-mobile/0001/image.png"  //同理，随机移动端壁纸："url":"https://t.mwm.moe/mp"
       }
     }
       
