@@ -65,8 +65,6 @@ const config = {
      "セネカ曰く「生は適切に活用すれば十分に長い」",
     "生命太短，没有时间留给遗憾，若不是终点，请微笑一直向前。",
     "現実の私は叶わない望みを抱いている、だから夢境に訴えることにした。",
-    "Happy birthday shaden أتمنى لك عيد ميلاد رائع، شادن!",
-    
   ],
 
   //音乐播放配置，采用MetingJS Api(https://github.com/metowolf/MetingJS)
