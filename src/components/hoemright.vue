@@ -5,10 +5,10 @@
         </div>
         <div>
           <v-row align="center">
-            <v-col cols="12" md="8">
+            <v-col cols="12" md="4">
               <typewriter class="ma-3 d-flex align-center justify-center" style="min-height: 200px;"></typewriter>
             </v-col>
-            <v-col cols="12" md="4" align="center">
+            <v-col cols="12" md="8" align="center">
               <v-card class="ma-3" hover
                 >
                   <template v-slot:title >
