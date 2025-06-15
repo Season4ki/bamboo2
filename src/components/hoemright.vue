@@ -12,7 +12,7 @@
               <v-card class="ma-3" hover
                 >
                   <template v-slot:title >
-                    <span class="leleo-card-title clock-font">{{formattedTime}}</span>
+                    <span class="bamboo-card-title clock-font">{{formattedTime}}</span>
                   </template>
                   <template v-slot:subtitle>
                     <span style="font-weight: bold;">{{formattedDate}}</span>
@@ -30,7 +30,7 @@
               <v-col
                 v-for="(item,key) in projectcards"
                 cols="6"
-                md="4"
+                md="8"
                 lg="3"
                 :style="xs?{'padding': '6px'}:{}"
               >
