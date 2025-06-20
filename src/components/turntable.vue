@@ -3,7 +3,7 @@
 .svg-frame {
   transform: scale(0.8);
   position: relative;
-  height: 270px;
+  height: 170px;
   transform-style: preserve-3d;
   display: flex;
   justify-content: center;
