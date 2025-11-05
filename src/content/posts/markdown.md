@@ -1,164 +1,163 @@
 ---
-title: Markdown Example
+title: Markdownの例
 published: 2023-10-01
-description: A simple example of a Markdown blog post.
-tags: [Markdown, Blogging, Demo]
-category: Examples
+description: Markdownブログ投稿の簡単な例です。
+tags: [Markdown, ブログ, デモ]
+category: 例
 draft: false
 ---
 
-# An h1 header
+# h1ヘッダー
 
-Paragraphs are separated by a blank line.
+段落は空行で区切られます。
 
-2nd paragraph. _Italic_, **bold**, and `monospace`. Itemized lists
-look like:
+2番目の段落。_イタリック_、**太字**、および`等幅フォント`。箇条書きリストは
+次のようになります：
 
-- this one
-- that one
-- the other one
+- これ
+- それ
+- その他
 
-Note that --- not considering the asterisk --- the actual text
-content starts at 4-columns in.
+アスタリスクを考慮しない場合、実際のテキスト
+コンテンツは4列から始まることに注意してください。
 
-> Block quotes are
-> written like so.
+> ブロック引用は
+> このように書かれます。
 >
-> They can span multiple paragraphs,
-> if you like.
+> 必要に応じて、複数の段落に
+> またがることができます。
 
-Use 3 dashes for an em-dash. Use 2 dashes for ranges (ex., "it's all
-in chapters 12--14"). Three dots ... will be converted to an ellipsis.
-Unicode is supported. ☺
+emダッシュには3つのダッシュを使用します。範囲には2つのダッシュを使用します（例：「すべて
+第12-14章で」）。3つの点...は省略記号に変換されます。
+Unicodeがサポートされています。☺
 
-## An h2 header
+## h2ヘッダー
 
-Here's a numbered list:
+番号付きリストは次のとおりです：
 
-1. first item
-2. second item
-3. third item
+1. 最初の項目
+2. 2番目の項目
+3. 3番目の項目
 
-Note again how the actual text starts at 4 columns in (4 characters
-from the left side). Here's a code sample:
+再び、実際のテキストが4列目（左側から4文字）から始まることに注意してください。
+コードサンプルは次のとおりです：
 
-    # Let me re-iterate ...
+    # 繰り返します...
     for i in 1 .. 10 { do-something(i) }
 
-As you probably guessed, indented 4 spaces. By the way, instead of
-indenting the block, you can use delimited blocks, if you like:
+おそらく推測したように、4つのスペースでインデントされています。ところで、
+ブロックをインデントする代わりに、区切りブロックを使用することもできます：
 
 ```
 define foobar() {
-    print "Welcome to flavor country!";
+    print "フレーバーカントリーへようこそ！";
 }
 ```
 
-(which makes copying & pasting easier). You can optionally mark the
-delimited block for Pandoc to syntax highlight it:
+（これによりコピー＆ペーストが簡単になります）。Pandocが構文ハイライトを
+行うように、区切りブロックにオプションでマークを付けることができます：
 
 ```python
 import time
-# Quick, count to ten!
+# 急いで、10まで数えよう！
 for i in range(10):
-    # (but not *too* quick)
+    # （ただし、*あまり*急がずに）
     time.sleep(0.5)
     print i
 ```
 
-### An h3 header
+### h3ヘッダー
 
-Now a nested list:
+ネストされたリスト：
 
-1. First, get these ingredients:
+1. まず、これらの材料を用意します：
 
-    - carrots
-    - celery
-    - lentils
+    - にんじん
+    - セロリ
+    - レンズ豆
 
-2. Boil some water.
+2. お湯を沸かします。
 
-3. Dump everything in the pot and follow
-    this algorithm:
+3. すべてを鍋に入れて、このアルゴリズムに従います：
 
-        find wooden spoon
-        uncover pot
-        stir
-        cover pot
-        balance wooden spoon precariously on pot handle
-        wait 10 minutes
-        goto first step (or shut off burner when done)
+        木のスプーンを見つける
+        鍋の蓋を取る
+        かき混ぜる
+        鍋に蓋をする
+        木のスプーンを鍋の取っ手に不安定にバランスさせる
+        10分待つ
+        最初のステップに戻る（または完了したらバーナーを切る）
 
-    Do not bump wooden spoon or it will fall.
+    木のスプーンにぶつからないようにしてください。落ちてしまいます。
 
-Notice again how text always lines up on 4-space indents (including
-that last line which continues item 3 above).
+テキストが常に4スペースのインデントで整列することに再び注意してください
+（上記の項目3を続ける最後の行を含む）。
 
-Here's a link to [a website](http://foo.bar), to a [local
-doc](local-doc.html), and to a [section heading in the current
-doc](#an-h2-header). Here's a footnote [^1].
+[ウェブサイト](http://foo.bar)へのリンク、[ローカル
+ドキュメント](local-doc.html)へのリンク、および[現在のドキュメントの
+セクション見出し](#an-h2-header)へのリンクがあります。脚注はこちらです[^1]。
 
-[^1]: Footnote text goes here.
+[^1]: 脚注のテキストはここに入ります。
 
-Tables can look like this:
+テーブルは次のようになります：
 
-size material color
-
----
-
-9 leather brown
-10 hemp canvas natural
-11 glass transparent
-
-Table: Shoes, their sizes, and what they're made of
-
-(The above is the caption for the table.) Pandoc also supports
-multi-line tables:
+サイズ 素材 色
 
 ---
 
-keyword text
+9 革 茶色
+10 麻キャンバス ナチュラル
+11 ガラス 透明
+
+表：靴、そのサイズ、および素材
+
+（上記はテーブルのキャプションです。）Pandocは
+複数行テーブルもサポートしています：
 
 ---
 
-red Sunsets, apples, and
-other red or reddish
-things.
-
-green Leaves, grass, frogs
-and other things it's
-not easy being.
+キーワード テキスト
 
 ---
 
-A horizontal rule follows.
+赤 夕日、りんご、その他の
+赤または赤っぽい
+もの。
+
+緑 葉、草、カエル
+その他のなるのが
+簡単ではないもの。
 
 ---
 
-Here's a definition list:
+水平線が続きます。
 
-apples
-: Good for making applesauce.
-oranges
-: Citrus!
-tomatoes
-: There's no "e" in tomatoe.
+---
 
-Again, text is indented 4 spaces. (Put a blank line between each
-term/definition pair to spread things out more.)
+定義リストは次のとおりです：
 
-Here's a "line block":
+りんご
+: アップルソースを作るのに良い。
+オレンジ
+: 柑橘類！
+トマト
+: トマトに「e」はありません。
 
-| Line one
-| Line too
-| Line tree
+繰り返しますが、テキストは4スペースでインデントされています。
+（用語/定義のペアの間に空行を入れると、より見やすくなります。）
 
-and images can be specified like so:
+「行ブロック」は次のとおりです：
 
-[//]: # (![example image]&#40;./demo-banner.png "An exemplary image"&#41;)
+| 1行目
+| 2行目
+| 3行目
 
-Inline math equations go in like so: $\omega = d\phi / dt$. Display
-math should get its own line and be put in in double-dollarsigns:
+画像は次のように指定できます：
+
+[//]: # (![例の画像]&#40;./demo-banner.png "模範的な画像"&#41;)
+
+インライン数式は次のように入ります：$\omega = d\phi / dt$。表示
+数式は独自の行を持ち、二重ドル記号で囲む必要があります：
 
 $$I = \int \rho R^{2} dV$$
 
@@ -171,5 +170,5 @@ $$
 \end{equation*}
 $$
 
-And note that you can backslash-escape any punctuation characters
-which you wish to be displayed literally, ex.: \`foo\`, \*bar\*, etc.
+バックスラッシュを使用して、文字通りに表示したい句読点文字を
+エスケープできることに注意してください。例：\`foo\`、\*bar\*など。

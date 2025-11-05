@@ -1,27 +1,27 @@
 ---
-title: Expressive Code Example
+title: Expressive Codeの例
 published: 2024-04-10
-description: How code blocks look in Markdown using Expressive Code.
-tags: [Markdown, Blogging, Demo]
-category: Examples
+description: Expressive Codeを使用したMarkdownでのコードブロックの表示方法。
+tags: [Markdown, ブログ, デモ]
+category: 例
 draft: false
 ---
 
-Here, we'll explore how code blocks look using [Expressive Code](https://expressive-code.com/). The provided examples are based on the official documentation, which you can refer to for further details.
+ここでは、[Expressive Code](https://expressive-code.com/)を使用してコードブロックがどのように表示されるかを探ります。提供されている例は公式ドキュメントに基づいており、詳細についてはそちらを参照してください。
 
 ## Expressive Code
 
-### Syntax Highlighting
+### 構文ハイライト
 
-[Syntax Highlighting](https://expressive-code.com/key-features/syntax-highlighting/)
+[構文ハイライト](https://expressive-code.com/key-features/syntax-highlighting/)
 
-#### Regular syntax highlighting
+#### 通常の構文ハイライト
 
 ```js
-console.log('This code is syntax highlighted!')
+console.log('このコードは構文ハイライトされています！')
 ```
 
-#### Rendering ANSI escape sequences
+#### ANSIエスケープシーケンスのレンダリング
 
 ```ansi
 ANSI colors:
@@ -42,52 +42,52 @@ Text formatting: [1mBold[0m [2mDimmed[0m [3mItalic[0m [4mUnderline[0m
 
 ### Editor & Terminal Frames
 
-[Editor & Terminal Frames](https://expressive-code.com/key-features/frames/)
+[エディタ＆ターミナルフレーム](https://expressive-code.com/key-features/frames/)
 
-#### Code editor frames
+#### コードエディタフレーム
 
 ```js title="my-test-file.js"
-console.log('Title attribute example')
+console.log('タイトル属性の例')
 ```
 
 ---
 
 ```html
 <!-- src/content/index.html -->
-<div>File name comment example</div>
+<div>ファイル名コメントの例</div>
 ```
 
-#### Terminal frames
+#### ターミナルフレーム
 
 ```bash
-echo "This terminal frame has no title"
+echo "このターミナルフレームにはタイトルがありません"
 ```
 
 ---
 
-```powershell title="PowerShell terminal example"
-Write-Output "This one has a title!"
+```powershell title="PowerShellターミナルの例"
+Write-Output "これにはタイトルがあります！"
 ```
 
-#### Overriding frame types
+#### フレームタイプのオーバーライド
 
 ```sh frame="none"
-echo "Look ma, no frame!"
+echo "見て、フレームがない！"
 ```
 
 ---
 
 ```ps frame="code" title="PowerShell Profile.ps1"
-# Without overriding, this would be a terminal frame
+# オーバーライドしなければ、これはターミナルフレームになります
 function Watch-Tail { Get-Content -Tail 20 -Wait $args }
 New-Alias tail Watch-Tail
 ```
 
-### Text & Line Markers
+### テキスト＆行マーカー
 
-[Text & Line Markers](https://expressive-code.com/key-features/text-markers/)
+[テキスト＆行マーカー](https://expressive-code.com/key-features/text-markers/)
 
-#### Marking full lines & line ranges
+#### 行全体と行範囲のマーキング
 
 ```js {1, 4, 7-8}
 // Line 1 - targeted by line number

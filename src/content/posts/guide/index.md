@@ -1,46 +1,46 @@
 ---
-title: Simple Guides for Fuwari
+title: Fuwariの簡単ガイド
 published: 2024-04-01
-description: "How to use this blog template."
+description: "このブログテンプレートの使用方法。"
 image: "./cover.jpeg"
-tags: ["Fuwari", "Blogging", "Customization"]
-category: Guides
+tags: ["Fuwari", "ブログ", "カスタマイズ"]
+category: ガイド
 draft: false
 ---
 
-> Cover image source: [Source](https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/208fc754-890d-4adb-9753-2c963332675d/width=2048/01651-1456859105-(colour_1.5),girl,_Blue,yellow,green,cyan,purple,red,pink,_best,8k,UHD,masterpiece,male%20focus,%201boy,gloves,%20ponytail,%20long%20hair,.jpeg)
+> カバー画像の出典: [Source](https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/208fc754-890d-4adb-9753-2c963332675d/width=2048/01651-1456859105-(colour_1.5),girl,_Blue,yellow,green,cyan,purple,red,pink,_best,8k,UHD,masterpiece,male%20focus,%201boy,gloves,%20ponytail,%20long%20hair,.jpeg)
 
-This blog template is built with [Astro](https://astro.build/). For the things that are not mentioned in this guide, you may find the answers in the [Astro Docs](https://docs.astro.build/).
+このブログテンプレートは[Astro](https://astro.build/)で構築されています。このガイドに記載されていない内容については、[Astroドキュメント](https://docs.astro.build/)で回答を見つけることができるでしょう。
 
-## Front-matter of Posts
+## 投稿のフロントマター
 
 ```yaml
 ---
-title: My First Blog Post
+title: 私の最初のブログ投稿
 published: 2023-09-09
-description: This is the first post of my new Astro blog.
+description: これは私の新しいAstroブログの最初の投稿です。
 image: ./cover.jpg
 tags: [Foo, Bar]
-category: Front-end
+category: フロントエンド
 draft: false
 ---
 ```
 
-| Attribute     | Description                                                                                                                                                                                                 |
+| 属性          | 説明                                                                                                                                                                                                         |
 |---------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| `title`       | The title of the post.                                                                                                                                                                                      |
-| `published`   | The date the post was published.                                                                                                                                                                            |
-| `description` | A short description of the post. Displayed on index page.                                                                                                                                                   |
-| `image`       | The cover image path of the post.<br/>1. Start with `http://` or `https://`: Use web image<br/>2. Start with `/`: For image in `public` dir<br/>3. With none of the prefixes: Relative to the markdown file |
-| `tags`        | The tags of the post.                                                                                                                                                                                       |
-| `category`    | The category of the post.                                                                                                                                                                                   |
-| `draft`        | If this post is still a draft, which won't be displayed.                                                                                                                                                    |
+| `title`       | 投稿のタイトル。                                                                                                                                                                                             |
+| `published`   | 投稿が公開された日付。                                                                                                                                                                                       |
+| `description` | 投稿の短い説明。インデックスページに表示されます。                                                                                                                                                           |
+| `image`       | 投稿のカバー画像のパス。<br/>1. `http://`または`https://`で始まる: ウェブ画像を使用<br/>2. `/`で始まる: `public`ディレクトリ内の画像<br/>3. プレフィックスなし: markdownファイルからの相対パス |
+| `tags`        | 投稿のタグ。                                                                                                                                                                                                 |
+| `category`    | 投稿のカテゴリ。                                                                                                                                                                                             |
+| `draft`        | この投稿がまだドラフトの場合、表示されません。                                                                                                                                                               |
 
-## Where to Place the Post Files
+## 投稿ファイルの配置場所
 
 
 
-Your post files should be placed in `src/content/posts/` directory. You can also create sub-directories to better organize your posts and assets.
+投稿ファイルは`src/content/posts/`ディレクトリに配置する必要があります。投稿とアセットをより適切に整理するために、サブディレクトリを作成することもできます。
 
 ```
 src/content/posts/

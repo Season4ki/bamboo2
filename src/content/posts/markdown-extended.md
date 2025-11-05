@@ -1,31 +1,31 @@
 ---
-title: Markdown Extended Features
+title: Markdown拡張機能
 published: 2024-05-01
 updated: 2024-11-29
-description: 'Read more about Markdown features in Fuwari'
+description: 'FuwariのMarkdown機能について詳しく読む'
 image: ''
-tags: [Demo, Example, Markdown, Fuwari]
-category: 'Examples'
+tags: [デモ, 例, Markdown, Fuwari]
+category: '例'
 draft: false 
 ---
 
-## GitHub Repository Cards
-You can add dynamic cards that link to GitHub repositories, on page load, the repository information is pulled from the GitHub API. 
+## GitHubリポジトリカード
+GitHubリポジトリにリンクする動的なカードを追加できます。ページの読み込み時に、リポジトリ情報がGitHub APIから取得されます。
 
 ::github{repo="Fabrizz/MMM-OnSpotify"}
 
-Create a GitHub repository card with the code `::github{repo="<owner>/<repo>"}`.
+コード`::github{repo="<owner>/<repo>"}`でGitHubリポジトリカードを作成します。
 
 ```markdown
 ::github{repo="saicaca/fuwari"}
 ```
 
-## Admonitions
+## 注意書き
 
-Following types of admonitions are supported: `note` `tip` `important` `warning` `caution`
+以下の種類の注意書きがサポートされています：`note` `tip` `important` `warning` `caution`
 
 :::note
-Highlights information that users should take into account, even when skimming.
+流し読みする場合でも、ユーザーが考慮すべき情報をハイライトします。
 :::
 
 :::tip

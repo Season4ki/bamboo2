@@ -8,9 +8,11 @@ draft: true
 
 # This Article is a Draft
 
-This article is currently in a draft state and is not published. Therefore, it will not be visible to the general audience. The content is still a work in progress and may require further editing and review.
+この記事は現在、下書きの状態で公開されていません。
+そのため、一般の読者には表示されません。
+内容はまだ作業中であり、さらに編集や確認が必要な場合があります。
 
-When the article is ready for publication, you can update the "draft" field to "false" in the Frontmatter:
+記事を公開する準備ができたら、Frontmatter 内の「draft」フィールドを「false」に更新してください。
 
 ```markdown
 ---

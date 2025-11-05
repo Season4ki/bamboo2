@@ -1,17 +1,17 @@
 ---
-title: Include Video in the Posts
+title: 投稿に動画を含める
 published: 2023-08-01
-description: This post demonstrates how to include embedded video in a blog post.
-tags: [Example, Video]
-category: Examples
+description: この投稿では、ブログ投稿に埋め込み動画を含める方法を説明します。
+tags: [例, 動画]
+category: 例
 draft: false
 ---
 
-Just copy the embed code from YouTube or other platforms, and paste it in the markdown file.
+YouTubeや他のプラットフォームから埋め込みコードをコピーして、markdownファイルに貼り付けるだけです。
 
 ```yaml
 ---
-title: Include Video in the Post
+title: 投稿に動画を含める
 published: 2023-10-19
 // ...
 ---
