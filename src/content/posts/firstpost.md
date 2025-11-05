@@ -1,7 +1,7 @@
 ---
-title: 最初の投稿
+title: みずにゃ大好き
 published: 2025-11-05
-description: 'これは私の最初のブログ投稿です。'
+description: 'みずにゃ大好きだよ。'
 image: ''
 tags: [ブログ, 最初の投稿, 日本語]
 category: '個人'
