@@ -5,7 +5,7 @@ description: '初めまして。'
 image: ''
 tags: [ブログ, 最初の投稿, 日本語]
 category: '個人'
-draft: false 
+draft: True
 lang: 'ja'
 ---
 
